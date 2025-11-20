@@ -1,0 +1,46 @@
+.form-box {
+            border: 2px solid #e7b6b6;
+            border-radius: 8px;
+            padding: 24px;
+            width: 320px;
+            margin: 30px auto;
+            background-color: #fff8f8;
+            box-shadow: 0 2px 8px rgba(231,182,182,0.08);
+        }
+
+.navigation ul {
+    list-style: none;
+    margin: 5;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    
+
+}
+
+.navigation li {
+    border-radius: 18px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 16px rgba(231,182,182,0.08);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.navigation a {
+    display: block;
+    padding: 12px 28px;
+    border-radius: 18px;
+    color: #e7b6b6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    backdrop-filter: blur(4px);
+    transition: background 0.3s, color 0.3s;
+}
+
+.navigation li:hover,
+.navigation a:hover {
+    background: rgba(223, 131, 131, 0.38);
+    box-shadow: 0 6px 24px rgba(188, 132, 132, 0.18);
+    color: #a05c5c;
+}
